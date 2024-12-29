@@ -5,9 +5,9 @@ For clarity: Liquidity pools, alpha pools, and subnet pools all refer to the sam
 
 Alpha
 ------------------------
-In dTAO (also known as RAO or dynamic TAO), each subnet will have it's own unique token internal to bittensor: alpha, beta, gamma, etc.
+In dTAO (also known as RAO or dynamic TAO), each subnet will have it's own unique token internal to bittensor, called the subnet's "alpha" token.
 
-Remember before dTAO, miners, validators, subnet owners, and stakers get paid for their contributions in TAO.  In dTAO, each subnet has it's own internal token, called "alpha".  Instead of miners, validators, subnet owners and stakers getting paid in TAO, they're now paid in alpha for each subnet they're operating in.  You can think of alpha as shares in a subnet.
+Remember before dTAO, miners, validators, subnet owners, and stakers get paid for their contributions in TAO.  In dTAO, each subnet has its own internal token, its "alpha" token.  Instead of miners, validators, subnet owners and stakers getting paid in TAO, they're now paid in alpha for each subnet they're operating in.  You can think of alpha as shares in a subnet.
 
 There are only 2 states or places that alpha can be:
 
