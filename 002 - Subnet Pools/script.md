@@ -5,19 +5,21 @@ For clarity: Liquidity pools, alpha pools, and subnet pools all refer to the sam
 
 Subnet pools
 ------------------------
-A subnet pool contains a bucket of TAO and a bucket of alpha.
-
-When you send TAO to the pool, you receive alpha staked to a validator.
+Subnet pools are the way that we buy and sell alpha in subnets.  If you want to purchase stake in a subnet, you must do so via a subnet pool.
 
 When you send alpha to the pool you receive TAO.
 
+When you send TAO to the pool, you receive alpha staked to a validator.
+
+A subnet pool contains a bucket of TAO and a bucket of alpha.
+
 Lets say there is a pool that has a total of 40 TAO and 100 alpha.
 
-When you go to actually purchase alpha, you'll see the price.
+When you go to actually purchase alpha, you'll see the price in the app or wallet you're using.
 
 The price for alpha is calculated by dividing the # of TAO in the pool by the # of alpha in the pool.
 
-In our case this is 40 / 100 = 0.4 TAO per alpha
+In our case the price is 40 / 100 = 0.4 TAO per alpha
 
 
 Slippage
@@ -30,7 +32,7 @@ In our example 40x100 = 4,000 = k
 
 If we send 1 TAO to the pool, there's now 41 TAO in the pool.
 
-In order to balance the pool so that k stays the same (4,000), we need to reduce the alpha to 97.6.
+In order to balance the pool so that k stays the same (4,000), we need to reduce the alpha to 97.56.
 
 41x97.56  = 4,000.
 
@@ -57,6 +59,7 @@ In this example the slippage was 0.002 TAO per alpha or 0.5%, much better.
 
 The new price is 40.1/99.751 = 0.41 TAO per alpha
 
+As participants purchase and sell alpha, the equilibrium between the 2 sides of the pool shifts to make sure k stays constant.
 
 Takeaways/Tips
 ------------------------
