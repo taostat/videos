@@ -8,11 +8,11 @@ If you are a regular user or staker, when you create a wallet in your wallet app
 
 Miners and validators are the only ones who create hotkeys.
 
-Miners
+**Miners**
 
 Miners use hotkeys to register on subnets.  Before a miner registers on a subnet, they create a hotkey.  The registration process associates their hotkey with a slot in the subnet.  Mining rewards are distributed to hotkeys.  Then miners move the funds from their hotkey to their coldkey then they sele their rewards on an exchange by sending their TAO from their coldkey to an exchange.  Many hotkeys can be associated with one coldkey, this is useful for miners who use multiple miner slots or who mine on multiple subnets.
 
-Validators
+**Validators**
 
 Each validators has 1 hotkey that allows users to stake to them.
 
