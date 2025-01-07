@@ -1,6 +1,8 @@
 Lets disambiguate between hotkey, coldkey, private key, public key, hot wallet, cold storage.
 
-"hot wallet" and "cold storage" are general crypto concepts.  A hot wallet is a wallet that has performed a transaction on the blockchain, whereas cold storage refers to a wallet that has never been connected to an internet-connected computer- a wallet that is very secure.  You can receive crypto to a cold storage wallet.  Typically, sending crypto from that cold storage wallet turns that wallet into a hot wallet, though there are ways around this.  I'll do a video on how to safely do transactions like staking from a cold wallet in another video.  Hot wallets are less secure than cold storage, hot wallets are susceptible to viruses, keyloggers, hacks, etc, whereas cold wallets are not.
+"hot wallet" and "cold storage" are general crypto concepts.  A hot wallet is a wallet that has performed a transaction on the blockchain, whereas cold storage refers to a wallet that has never been connected to an internet-connected computer- a wallet that is very secure.  You can receive crypto to a cold storage wallet.  Typically, sending crypto from that cold storage wallet turns that wallet into a hot wallet, though there are ways around this.  I'll do a video on how to safely do transactions like staking from a cold wallet in another video.
+
+Hot wallets are less secure than cold storage, hot wallets are susceptible to viruses, keyloggers, hacks, etc.  Cold wallets are not susceptible to these attacks because their wallets were generated offline, and stored offline, never connected to a computer with a live internet connection.
 
 These are not to be conflated with "hotkeys" and "coldkeys", these are bittensor-specific concepts.
 
