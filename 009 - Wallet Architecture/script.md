@@ -7,7 +7,7 @@ Hot wallets are a little less secure than cold storage wallets, hot wallets are 
 
 So hot and cold wallets aren't fundamentally different, they're just metaphors for describing how secure a wallet is.
 
-Hot and Cold Wallets are not to be conflated with "hotkeys" and "coldkeys", which are bittensor-specific concepts.
+Hot and Cold Wallets are not to be conflated with "hotkeys" and "coldkeys", which are bittensor-specific concepts that we'll come back to in a bit.
 
 If you are a regular user or staker, when you create a wallet in your wallet app, you'll be given a 12 or 24 word phrase to securely write down.  Those words are called a mnemonic, your mnemonic allows you to access your funds.  Your mnemonic is your wallet or in bittensor it's sometimes referred to as your "coldkey".  If your computer gets hit by a meteor or otherwise destroyed, and you've physically written down the mnemonic on a piece of paper and safely stored it, you'll still be able to recover and access to your funds by inputing your mnemonic on any other computer.  This is because your funds are stored using the magic of cryptography, they aren't stored on your computer, they aren't stored in the wallet application nor wallet extension, your funds are stored using the mnemonic.
 
@@ -52,5 +52,7 @@ So in summary:
 
 todo
 ----------
+We're going to do this in 3 parts: wallet metaphors, wallet parts, and bittensor wallets.
 In bittensor, it always starts with a 5
+Hot and Cold Wallets are not to be conflated with "hotkeys" and "coldkeys", which are bittensor-specific concepts that we'll come back to in a bit.
 
