@@ -1,5 +1,7 @@
 Lets disambiguate between hot wallet, cold wallet, public key, private key, cold key, and hot key.
 
+Hot Wallets and Cold Wallets
+-----------------------
 "hot wallets" and "cold wallets" or "cold storage" are general crypto concepts.
 A hot wallet is a wallet that has been connected to the internet, whereas cold storage refers to a wallet that has never been connected to an internet-connected computer- a wallet that is very secure.  You can receive crypto to a cold storage wallet.  Typically, sending crypto from that cold storage wallet turns that wallet into a hot wallet, though there are ways around this.  I'll do a video on how to safely do transactions like staking from a cold wallet in another video.
 
@@ -9,21 +11,27 @@ So hot and cold wallets aren't fundamentally different, they're just metaphors f
 
 Hot and Cold Wallets are not to be conflated with "hotkeys" and "coldkeys", which are bittensor-specific concepts that we'll come back to in a bit.
 
-If you are a regular user or staker, when you create a wallet in your wallet app, you'll be given a 12 or 24 word phrase to securely write down.  Those words are called a mnemonic, your mnemonic allows you to access your funds.  Your mnemonic is your wallet or in bittensor it's sometimes referred to as your "coldkey".  If your computer gets hit by a meteor or otherwise destroyed, and you've physically written down the mnemonic on a piece of paper and safely stored it, you'll still be able to recover and access to your funds by inputing your mnemonic on any other computer.  This is because your funds are stored using the magic of cryptography, they aren't stored on your computer, they aren't stored in the wallet application nor wallet extension, your funds are stored using the mnemonic.
-
-So your bittensor coldkey is a regular crypto wallet.  Hotkeys are a different type of wallet- only created by miners and validators.  We'll come back to this.
-
-When you send TAO to a friend via a wallet app, you're sending TAO from your coldkey to your friend's coldkey.
-
-Public keys and Private keys are also general crypto concepts.  A crypto wallet consists of 2 parts:
-* A public key is a few dozen letters and numbers that you can tell anyone, it's public.  In bittensor, typically it starts with a 5.  If you want to receive crypto, you have to provide your public key to the sender for them to know where to send it.  If you want to check your wallet balance on taostats.io you can simply put the public key into the search and find your wallet's balance.
-* A private key is the real thing to keep secret.  It's a longer bunch of letters and numbers that you never tell anyone, it's private.  Your private key allows you to transfer funds out of your wallet.  You can recreate your private key and public key with your mnemonic, so safely store and protect your mnemonic.  If anyone gets access to your private key or mnemonic, they can steal your funds.
+Public and Private Keys
+-----------------------
+A cryptocurrency wallet consists of 2 parts:
+* A public key is a few dozen letters and numbers that you can tell anyone, it's public.  If you want to receive crypto, you have to provide your public key, (also known as public address) to the sender for them to know where to send it.
+* A private key is the real thing to keep secret.  It's a longer bunch of letters and numbers that you never tell anyone, it's private.  Your private key allows you to transfer funds out of your wallet.
 
 A simple way to think about this is that your public key is your bank account number (it allows you to receive money), and your private key is the password or pin for your bank account.
 
-So to be abnoxiously specific, when you send TAO to a friend via a wallet app, the wallet app is using your wallet's private key to send TAO from your coldkey wallet to your friend's coldkey wallet's public key.
+If you are a regular user or staker, when you create a wallet in your wallet app, you'll be given a 12 or 24 word phrase to securely write down.  Those words are called a mnemonic, your mnemonic allows you to access your funds- it's like a master key to your wallet.
+If your computer gets hit by a meteor or otherwise destroyed, and you've physically written down the mnemonic on a piece of paper and safely stored it, you'll still be able to recover and access to your funds.  By inputing your mnemonic into a wallet app on any computer, generates your public key and private key, and therefore grants you access to your funds.  This is because your funds are stored using the magic of cryptography, they aren't stored on your computer, they aren't stored in the wallet application nor wallet extension, your funds are stored using the mnemonic.
 
-In bittensor, if someone asks you for your coldkey, they're asking you for the public key of your wallet in order to send you money or see your account balance.  Again, never send your private key to anyone, it's private.
+So safely store and protect your mnemonic.  If anyone gets access to your private key or mnemonic, they can steal your funds.
+
+
+Bittensor Wallets
+-----------------------
+In bittensor a coldkey is just a regular crypto wallet.
+
+When you send TAO to a friend via a wallet app, you're sending TAO from your coldkey to your friend's coldkey.
+
+So to be abnoxiously specific, when you send TAO to a friend via a wallet app, the wallet app is using your wallet's private key to send TAO from your coldkey wallet to your friend's coldkey wallet's public key.
 
 Hotkeys are another type of wallet in bittensor.
 
@@ -49,10 +57,4 @@ So in summary:
 
 
 
-
-todo
-----------
-We're going to do this in 3 parts: wallet metaphors, wallet parts, and bittensor wallets.
-In bittensor, it always starts with a 5
-Hot and Cold Wallets are not to be conflated with "hotkeys" and "coldkeys", which are bittensor-specific concepts that we'll come back to in a bit.
 
