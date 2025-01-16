@@ -1,8 +1,8 @@
 Alpha
 ------------------------
-In dTAO (also known as RAO or dynamic TAO), each subnet will have it's own unique token internal to bittensor, called the subnet's "alpha" token.
+Each subnet has it's own unique token internal to bittensor, called the subnet's "alpha" token.  If you hold alpha in a subnet, you believe in the subnet.  Each subnet's alpha tokens has a price that is determined by the market.  Alpha tokens are essentially staked tokens for a subnet, you'll receive dividends according to how much you hold.
 
-Remember before dTAO, miners, validators, subnet owners, and stakers get paid for their contributions in TAO.  In dTAO, each subnet has its own internal token, its "alpha" token.  Instead of miners, validators, subnet owners and stakers getting paid in TAO, they're now paid in alpha for each subnet they're operating in.  You can think of alpha as shares in a subnet.
+Remember before dTAO, miners, validators, subnet owners, and stakers get paid for their contributions in TAO.  Now, each subnet has its own internal token, its "alpha" token.  Instead of miners, validators, subnet owners and stakers getting paid in TAO, they're now paid in alpha for each subnet they're operating in.  You can think of alpha as shares in a subnet.
 
 Just a point of clarification on the term "alpha", it has 2 meanings:
 1. We refer generally to each subnet's token as it's alpha token.

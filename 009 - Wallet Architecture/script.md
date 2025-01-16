@@ -43,7 +43,7 @@ The miner registration process associates the miner's hotkey with a slot in the 
 
 Validators use hotkeys to allow users to stake to them.
 
-So if you're staking, you'll be staking to your favorite validator's hotkey.  The way this works is that you tell the blockchain which validator's hotkey you want to stake your coldkey funds with.  The funds move from your coldkey (or wallet) to a spreadsheet in the blockchain that associates your coldkey with the validator's hotkey.  At no point does the validator have access to your funds.  When you want to unstake, the blockchain simply puts your staked funds back into your wallet and deletes the entry from the staking spreadsheet.
+So if you're staking, you'll be staking to your favorite validator's hotkey.  The way this works is that you tell the blockchain which validator's hotkey you want to stake your coldkey funds with.  The funds move from your coldkey (or wallet) to a spreadsheet in the blockchain that associates your coldkey with the validator's hotkey.  At no point does the validator have access to your funds.  When you want to unstake, the blockchain simply puts your staked funds back into your wallet and deletes the entry from the staking spreadsheet.  This is how it's done for root staking, staking directly to a subnet is similar, you'll simply provide a subnet as well.
 
 Miners and validators are the only ones who create hotkeys.
 

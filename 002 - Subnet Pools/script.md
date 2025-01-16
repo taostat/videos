@@ -1,15 +1,17 @@
 
-What are liquidity pools, and how will they work in bittensor?
+What are subnet pools, and how do they work in bittensor?
 
-For clarity: Liquidity pools, alpha pools, and subnet pools all refer to the same thing.  We're going to refer to them in this video as subnet pools.
+For clarity: Liquidity pools, alpha pools, and subnet pools all refer to the same thing.  We're going to use the term subnet pools.
+
+Before we start, recall that alpha is essentially a staked token in a subnet.  Similar to shares that pay dividends.
 
 Subnet pools
 ------------------------
-Subnet pools are the way that we buy and sell alpha in subnets.  If you want to purchase stake in a subnet, you must do so via a subnet pool.
-
-When you send alpha to the pool you receive TAO.
+Subnet pools are the way that we buy and sell alpha in subnets.  If you want to purchase stake in a subnet, the only way to get it is through it's subnet pool.
 
 When you send TAO to the pool, you receive alpha staked to a validator.
+
+When you send alpha to the pool you receive TAO.
 
 A subnet pool contains a bucket of TAO and a bucket of alpha.
 
@@ -19,12 +21,16 @@ When you go to actually purchase alpha, you'll see the price in the app or walle
 
 The price for alpha is calculated by dividing the # of TAO in the pool by the # of alpha in the pool.
 
-In our case the price is 40 / 100 = 0.4 TAO per alpha
+In our case the price is 40 TAO divided by 100 alpha, which makes a price of 0.4 TAO per alpha
 
 
 Slippage
 ------------------------
-In our example, 0.4 TAO isn't quite the final price you'll be paying, but it's very close.  There are no fees for using the subnet pool, but there is slippage.  Slippage should be calculated by your wallet or app when you go to purchase alpha, but lets look at how its calculated.
+In our example, 0.4 TAO isn't quite the final price you'll be paying, but it's very close.  There are no fees for using the subnet pool, but there is slippage.  Slippage is similar to a fee in that you'll be paying a bit more to do your transaction.  The reason we call it slippage is because it difers from fees in 2 ways:
+The amount you'll be paying in slippage is determined by the market
+No one profits from slippage.
+
+Slippage should be calculated by your wallet or app when you go to purchase alpha, but lets look at how its calculated.
 
 The number of TAO multiplied by the number of alpha in the pool is a value we call "k"; it sort of represents the total liquidity in the pool.  k stays the same during a transaction with the subnet pool.
 
@@ -57,13 +63,13 @@ So for our 0.1 TAO we'll receive 0.249 alpha: that's a rate of 0.402 TAO per alp
 
 In this example the slippage was 0.002 TAO per alpha or 0.5%, much better.
 
-The new price is 40.1/99.751 = 0.41 TAO per alpha
+After our transaction, the new price is 40.1/99.751 = 0.402 TAO per alpha
 
 As participants purchase and sell alpha, the equilibrium between the 2 sides of the pool shifts to make sure k stays constant.
 
 Takeaways/Tips
 ------------------------
 * Instead of buying large sums of alpha at once, consider buying small amounts over time to reduce slippage.  Dollar Cost Averaging (DCA) is your friend here.
-* Over time, the amount of total liquidity (k) in every pool slowly increases via emissions [see another video for how emissions work].  So slippage on older subnets will be lower than on newer subnets.
+* Over time, the amount of total liquidity (k) in every pool slowly increases via emissions [see another video for how emissions work].  So slippage on older subnets will be lower than on newer subnets, meaning that older subnets will be cheaper, as far as slippage goes, to transact with.
 * I want to note that there is 1 key difference between a regular decentralized exchange liquidity pool and subnet pools:  No one owns the alpha nor TAO in bittensor's liquidity pools.  So there's no way to add liquidity to a pool and receive a yield like there is in a traditional liquidity pool.
 
