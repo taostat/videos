@@ -79,6 +79,9 @@ Takeaways/Tips
 
 TO FIX
 -----------
+add note on how liquidity ends up in the pool with a reference to an emissions vid.
+
+add Another example (unstaking)
 
 Buying small amounts over time is a common investment strategy called dollar cost averaging (DCA) usually used to reduce exposure to volatility, but in a bittensor subnet pool it may help reduce slippage as well.
 
@@ -86,6 +89,5 @@ Buying small amounts over time is a common investment strategy called dollar cos
 
 So in our example 40 TAO divided by 100 alpha, makes a price of 0.4 TAO per alpha
 
-Another example (unstaking)
 
 You might be wondering why I used the word per instead of a slash when I referred to tao per alpha.  This is because the slash in trading doesn't mean the same thing as a slash in math.  When we refer to the bitcoin price we usually denote it like this (100k btc/usdt), despite how it's written it doesn't mean 100k bitcoin per usdt, it means 100k usdt per bitcoin.
