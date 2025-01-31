@@ -30,41 +30,41 @@ No one profits from slippage.
 
 Slippage should be calculated by your wallet or app when you go to purchase alpha, but lets look at how its calculated.
 
+In our example, if we send 1 TAO to the pool, at a price of 0.4 we might expect to get back 2.5 ALPHA.  2.5 multiplied by 0.4 is 1 tao.  Lets go deeper.
+
 The number of TAO multiplied by the number of alpha in the pool is a value we call "k"; it sort of represents the total liquidity in the pool.  k stays the same during a transaction with the subnet pool.
 
-In our example 40x100 = 4,000 = k
+In our example 40taox100alpha = 4,000 = k
 
-If we send 1 TAO to the pool, there's now 41 TAO in the pool.
+When we send 1 TAO to the pool, there's now 41 TAO in the pool.
 
 In order to balance the pool so that k stays the same (4,000), we need to reduce the alpha to 97.56.
 
 41x97.56  = 4,000.
 
-So for our 1 TAO we'll receive 2.44 alpha: that's a rate of 0.410 TAO per alpha.
+This reduction is a difference of 2.44 alpha.
 
-In this example the slippage was 0.01 TAO per alpha or 2.5%, brutal.
+So for our 1 TAO we'll actually receive 2.44 alpha.
 
-To get the new price remember, we simply divide the number of TAO by the number of alpha: 41/97.56 = 0.42 TAO per alpha
+Slippage is the difference between the expected price and what we actually received.
+In this example the slippage was 0.06 alpha or 2.4%, pretty high.
+
+To get the new price after our transaction, remember, we simply divide the number of TAO by the number of alpha: 41/97.56 = 0.42 TAO per alpha
+we
+-----------------
+Now, lets reset our example and instead purchase only 0.1 TAO worth of alpha, so we might expect to receive 0.25 ALPHA.
+
+There's now 40.1 TAO in the pool.
+
+In order to balance the pool so that k stays the same at 4,000, we need to reduce the alpha to 99.751.
+
+40.1 tao multiplied by 99.751 alpha keeps our K at 4000.
+So for our 0.1 TAO we'll receive 0.249 alpha, which is a slippage of 0.001 alpha or 0.24%.  A better rate than the previous example.
+
+The new price becomes 0.402.
 
 -----------------
-Now, lets reset our example and instead purchase only 0.1 TAO worth of alpha.
-
-40x100 = 4,000 = k
-
-If we send 0.1 TAO to the pool, there's now 40.1 TAO in the pool.
-
-In order to balance the pool so that k stays the same (4,000), we need to reduce the alpha to 99.751.
-
-40.1 x 99.751  = 4,000.
-
-So for our 0.1 TAO we'll receive 0.249 alpha: that's a rate of 0.402 TAO per alpha.  A better rate than the previous example.
-
-In this example the slippage was 0.002 TAO per alpha or 0.5%, much better.
-
-After our transaction, the new price is 40.1/99.751 = 0.402 TAO per alpha
-
------------------
-Now of course this works in the other direction as well, I won't bore you with any more math, but if I send 1 alpha to the pool, I will receive X and my slippage was Y, or Z%.  After our transaction, the price becomes B TAO per alpha.
+Now of course this works in the other direction as well, I won't bore you with any more math, but if we send that same 0.249 alpha back to the pool, we might expect to receive 0.1001 TAO due to the price increase from the last transaction.  We will actually receive 0.1 tao and the slippage was again 0.24%.  After our transaction, the price returns to 0.4 TAO per alpha.
 
 As participants purchase and sell alpha, the equilibrium between the 2 sides of the pool shifts to make sure k stays constant.
 
@@ -73,21 +73,11 @@ Takeaways/Tips
 * When you purchase alpha, you'll be prompted to pick a validator to stake your alpha with.  You'll want to choose a validator that you think is doing a good job and is beneficial to the subnet.
 * Instead of buying large sums of alpha at once, consider buying small amounts over time to reduce slippage.  Dollar Cost Averaging (DCA) is your friend here.
 * Over time, the amount of total liquidity (k) in every pool slowly increases via emissions [see another video for how emissions work].  So slippage on older subnets will be lower than on newer subnets, meaning that older subnets will be cheaper, as far as slippage goes, to transact with.
-* I want to note that there is 1 key difference between a regular decentralized exchange liquidity pool and subnet pools:  No one owns the alpha nor TAO in bittensor's liquidity pools.  So there's no way to add liquidity to a pool and receive a yield like there is in a traditional liquidity pool.
+* I want to note that there is 1 key difference between a regular decentralized exchange liquidity pool and subnet pools:  No one owns the alpha nor TAO in bittensor's liquidity pools.  So there's no way to add liquidity to a pool and receive a yield like there is in a traditional liquidity pool, we'll breakdown how emissions grow the liquidity in subnet pools in another video.
 
 
 
 TO FIX
 -----------
-add note on how liquidity ends up in the pool with a reference to an emissions vid.
+Slippage is the difference between the expected price and what we actually received.
 
-add Another example (unstaking)
-
-Buying small amounts over time is a common investment strategy called dollar cost averaging (DCA) usually used to reduce exposure to volatility, but in a bittensor subnet pool it may help reduce slippage as well.
-
-* When you purchase alpha, you'll be prompted to pick a validator to stake your alpha with.  You'll want to choose a validator that you think is doing a good job and is beneficial to the subnet.
-
-So in our example 40 TAO divided by 100 alpha, makes a price of 0.4 TAO per alpha
-
-
-You might be wondering why I used the word per instead of a slash when I referred to tao per alpha.  This is because the slash in trading doesn't mean the same thing as a slash in math.  When we refer to the bitcoin price we usually denote it like this (100k btc/usdt), despite how it's written it doesn't mean 100k bitcoin per usdt, it means 100k usdt per bitcoin.
