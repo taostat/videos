@@ -24,7 +24,7 @@ In our case the price is 40 TAO divided by 100 alpha, which makes a price of 0.4
 
 Slippage
 ------------------------
-In our example, 0.4 TAO isn't quite the final price you'll be paying, but it's very close.  There are no fees for using the subnet pool, but there is slippage.  Slippage is similar to a fee in that you'll be paying a bit more to do your transaction.  The reason we call it slippage is because it difers from fees in 2 ways:
+In our example, 0.4 TAO isn't quite the final price you'll be paying, but it's very close.  There is a tiny flat fee for using the subnet pool at the time of this video it's 0.0005 TAO.  Slippage is more important to be aware of.  Slippage is similar to a fee in that you'll be paying a bit more to do your transaction.  The reason we call it slippage is because it difers from fees in 2 ways:
 The amount you'll be paying in slippage is determined by the market
 No one profits from slippage.
 
@@ -70,9 +70,8 @@ As participants purchase and sell alpha, the equilibrium between the 2 sides of 
 
 Takeaways/Tips
 ------------------------
-* When you purchase alpha, you'll be prompted to pick a validator to stake your alpha with.  You'll want to choose a validator that you think is doing a good job and is beneficial to the subnet.
 * Instead of buying large sums of alpha at once, consider buying small amounts over time to reduce slippage.  Dollar Cost Averaging (DCA) is your friend here.
-* Over time, the amount of total liquidity (k) in every pool slowly increases via emissions [see another video for how emissions work].  So slippage on older subnets will be lower than on newer subnets, meaning that older subnets will be cheaper, as far as slippage goes, to transact with.
+* Over time, the amount of total liquidity (k) in every pool slowly increases via emissions.  So slippage on older subnets will be lower than on newer subnets, meaning that older subnets will be cheaper, as far as slippage goes, to transact with.
 * I want to note that there is 1 key difference between a regular decentralized exchange liquidity pool and subnet pools:  No one owns the alpha nor TAO in bittensor's liquidity pools.  So there's no way to add liquidity to a pool and receive a yield like there is in a traditional liquidity pool, we'll breakdown how emissions grow the liquidity in subnet pools in another video.
 
 
