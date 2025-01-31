@@ -24,8 +24,18 @@ In our case the price is 40 TAO divided by 100 alpha, which makes a price of 0.4
 
 Slippage
 ------------------------
-In our example, 0.4 TAO isn't quite the final price you'll be paying, but it's very close.  There is a tiny flat fee for using the subnet pool at the time of this video it's 0.0005 TAO.  Slippage is more important to be aware of.  Slippage is similar to a fee in that you'll be paying a bit more to do your transaction.  The reason we call it slippage is because it difers from fees in 2 ways:
+In our example, 0.4 TAO isn't quite the final price you'll be paying, but it's very close.
+
+There is a tiny flat fee for using the subnet pool at the time of this video it's 0.0005 TAO.
+
+Slippage is more important to be aware of.
+
+Slippage is similar to a fee in that you'll be paying a bit more to do your transaction.
+
+The reason we call it slippage is because it difers from fees in 2 ways:
+
 The amount you'll be paying in slippage is determined by the market
+
 No one profits from slippage.
 
 Slippage should be calculated by your wallet or app when you go to purchase alpha, but lets look at how its calculated.
