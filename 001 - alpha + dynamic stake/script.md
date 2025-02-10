@@ -1,18 +1,21 @@
-What are alpha tokens, how are they used, and should I purchase them?
+We're going to go over what alpha tokens are, how to get them, how to use them, the risks and the network benefits.
 
 Alpha
 ------------------------
-Each subnet has it's own unique token internal to bittensor, called the subnet's "alpha" token.  Each subnet's alpha token has a price in TAO that is determined by the market.
+Each subnet has it's own unique token internal to bittensor: alpha, beta, gamma, delta, after the greek letters are exhausted, we move to the hebrew alphabet, then arabic, etc.  We refer to these tokens generically as the subnet's "alpha" token.
+
+Alpha tokens are used to help the network determine which subnets are the most valuable. This means that staking to a subnet is akin to a democratic vote - if you hold an alpha token, you believe that subnet has more value than other subnets.
+
+Subnets are numbered, for example, I might say that I have alpha or stake in subnet 19, 64, and 245.  However some subnets may prefer to use to use their subnet's associated greek, hebrew, arabic, etc letters.
+
+Each subnet's alpha token has a price in TAO that is determined by the market.
 You'll receive dividends in alpha according to how much alpha you hold.  So you can think of alpha as shares in a subnet, you can also think of alpha as staked tokens for a subnet.
 
 Remember before dTAO, participants got paid for their contributions in TAO.  Now that each subnet has its own alpha token, miners, validators, subnet owners and stakers are now paid in alpha for each subnet they're operating in.  Alpha tokens can then be exchanged for TAO for participants that want to cash out or pay their costs in fiat.
 
-Subnets are numbered, for example, I might say that I have stake in subnet 19, 64, and 245.  However some subnets will choose to use to use their subnet's associated greek letter [and then what? MORE ELABORATION REQUIRED HERE].  For example I might say that I own [...]
-
 Tokenomics
 ------------------------
-Just like TAO, each subnet's alpha tokens have a limited supply of 21m.  Since you must buy TAO in order to purchase alpha with it, the market cap of all the subnets put together will approximate TAO's market cap.  There will be a separate video for emissions.
-[Might want to elaborate with 1 more sentence here? doug, thoughts?]
+Just like TAO, each subnet's alpha tokens have a limited supply of 21m.  Since alpha tokens can only be purchased with tao, the market cap of all the subnets put together will approximate TAO's market cap.  There will be a separate video for emissions.
 
 
 How to get alpha
