@@ -88,5 +88,3 @@ Takeaways/Tips
 
 TO FIX
 -----------
-Slippage is the difference between the expected price and what we actually received.
-
