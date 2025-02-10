@@ -55,7 +55,7 @@ Risk
 Owning alpha comes with 2 layers of risk.
 
 1. When the price of TAO goes down, the price of your subnet's alpha token also goes down (in USD).
-2. If your subnet performs poorly it's alpha price will go down, and therefore your investment in it.
+2. If your subnet performs poorly it's alpha price will go down relative to TAO and therefor relative to USD.
 
 So investors that hold alpha are saying 2 things: they believe in bittensor AND they believe in a bittensor subnet.  If you aren't convinced about either bittensor's value or the subnet's value, it's probably best to do more research or stay away from alpha tokens.
 
