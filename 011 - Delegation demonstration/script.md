@@ -28,6 +28,8 @@ Lets pretend I really like subnet 64, and subnets 7 and 19 I like equally, but a
 
 So I'll pull the slider for subnet 64 up to 50%.  You can see that the other subnets' percentages have gone down to account for this.  These percentages represents the percentage of the entirety of my staking portfolio, in my case 50% of my 1 TAO staking portfolio.
 
+You'll notice the slippage appears here, and you can manually change the max slippage you're willing to pay up here.  0.5% is the default.
+
 Then I can hit delegate, approve and we've now got xyz [need to improve wording, once the app is more finished]
 
 
