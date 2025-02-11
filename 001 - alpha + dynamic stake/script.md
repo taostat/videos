@@ -50,7 +50,7 @@ You cannot trade alpha, you cannot do anything other than the 2 operations above
 
 So there's only 1 way to buy or sell alpha for a subnet - you must go through it's subnet pool.  You can only exchange TAO for alpha or alpha for TAO.
 
-What we've explained here is true of the native substrate bittensor blockchain, but may be expanded upon from EVM.  It's possible that we might see wrapped subnet tokens or other fancy products with EVM.
+What we've explained here is true of the native substrate bittensor blockchain, but may be expanded upon from EVM.  It's possible that we might see wrapped subnet tokens or other fancy products with EVM as developers continue to contribute to bittensor.
 
 
 Risk
