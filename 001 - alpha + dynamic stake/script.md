@@ -6,7 +6,7 @@ Each subnet has it's own unique token internal to bittensor: alpha, beta, gamma,
 
 Alpha tokens are used to help the network determine which subnets are the most valuable. This means that staking to a subnet is akin to a democratic vote - if you hold an alpha token, you believe that subnet has more value than other subnets.
 
-Subnets are numbered, for example, I might say that I have alpha or stake in subnet 19, 64, and 245.  However some subnets may prefer to use to use their subnet's associated greek, hebrew, arabic, etc letters.
+Subnets are numbered, for example, I might say that I have alpha or stake in subnet 21, 64, and 245.  However some subnets may prefer to use to use their subnet's associated greek, hebrew, arabic, etc letters.
 
 Each subnet's alpha token has a price in TAO that is determined by the market.
 You'll receive dividends in alpha according to how much alpha you hold.  So you can think of alpha as shares in a subnet, you can also think of alpha as staked tokens for a subnet.
@@ -15,12 +15,13 @@ Remember before dTAO, participants got paid for their contributions in TAO.  Now
 
 Tokenomics
 ------------------------
-Just like TAO, each subnet's alpha tokens have a limited supply of 21m.  Since alpha tokens can only be purchased with tao, the market cap of all the subnets put together will approximate TAO's market cap.  There will be a separate video for emissions.
+Just like TAO, each subnet's alpha tokens have a limited supply of 21m.  Each subnet has their own 4 year emission halving schedule, starting when the subnet was created, for the original 64 this is the day the dynamic tao upgrade happened.
+
 
 
 How to get alpha
 -------------------------
-Alpha for a subnet is purchased via it's subnet pool.  Subnet pools are essentially a decentralized exchange where TAO is the base token used for purchasing alpha.  See the separate video for more information on how subnet pools work.  You will be able to purchase alpha easily via taostats.io [OR WHATEVER THE SPECIFIC WEBSITE URL IS].
+Alpha for a subnet is purchased via it's subnet pool.  Subnet pools are essentially a decentralized exchange where TAO is the base token used for purchasing alpha.  See the separate video for more information on how subnet pools work.  You will be able to purchase alpha easily via taostats.io link in the description.
 
 
 How its used
@@ -31,7 +32,7 @@ There are only 2 states or places where alpha exists:
 or
 2. In a wallet, staked to a validator
 
-Alpha cannot be in a state where it's in a wallet and not staked to a validator.  When you go to purchase alpha, you'll be prompted to choose:
+Alpha cannot be in a state where it's in a wallet and not staked to a validator.  Your alpha retains the same value regardless of which validator you choose, but your APR is affected by the performance of the validator you pick.  When you go to purchase alpha, you'll be prompted to choose:
 
 1. Which subnet.
 2. How much alpha.
@@ -44,7 +45,7 @@ While alpha is in your wallet, staked to a validator, you will receive dividends
 
 By default: you can only do 2 things with your alpha:
 * It can be traded for TAO at the current market rate via a subnet pool.
-* It can be staked to a different validator.  Currently, changing validators doesn't do anything directly for stakers.  However, it increases that validator's emissions- so pick a validator that you think is beneficial for the subnet and you'll indirectly increase the quality of the subnet and therefore your investment.  Taostats strives to be active on all subnets [or some other non-exhausting tiny taostats plug]
+* It can be staked to a different validator.
 
 You cannot trade alpha, you cannot do anything other than the 2 operations above with alpha.
 
@@ -70,4 +71,9 @@ By purchasing alpha in a subnet, you're showing support for that subnet, but you
 
 Since miners, validators, subnet owners, and stakers are all paid in alpha tokens, when you buy an alpha token in a subnet and cause the alpha token's price to increase, you're directly causing that subnet's participants to be paid more.  Thereby encouraging their work and signalling to the bittensor market that you think this subnet is more valuable.
 
-Bittensor is a decentralized commodity marketplace and alpha is the price of each commodity.
+Bittensor is a decentralized commodity marketplace and the price of alpha represents the value of each commodity.
+
+
+TO FIX
+----------------
+
