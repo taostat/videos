@@ -15,7 +15,7 @@ Remember before dTAO, participants got paid for their contributions in TAO.  Now
 
 Tokenomics
 ------------------------
-Just like TAO, each subnet's alpha tokens have a limited supply of 21m.  Each subnet has their own 4 year emission halving schedule, starting when the subnet was created, for the original 64 this is the day the dynamic tao upgrade happened.
+Just like TAO, each subnet's alpha tokens have a limited supply of 21m.  Each subnet has their own 4 year emission halving schedule, starting when the subnet was created, with the exception of the original 64 subnets, whose havening schedule started on the day dynamic tao went live, february 14th 2025.
 
 
 
@@ -47,9 +47,9 @@ By default: you can only do 2 things with your alpha:
 * It can be traded for TAO at the current market rate via a subnet pool.
 * It can be staked to a different validator.
 
-You cannot trade alpha, you cannot do anything other than the 2 operations above with alpha.
+By default, You cannot send alpha to another wallet.
 
-So there's only 1 way to buy or sell alpha for a subnet - you must go through it's subnet pool.  You can only exchange TAO for alpha or alpha for TAO.
+So there's only 1 way to buy or sell alpha for a subnet - you must go through it's subnet pool.
 
 What we've explained here is true of the native substrate bittensor blockchain, but may be expanded upon from EVM.  It's possible that we might see wrapped subnet tokens or other fancy products with EVM as developers continue to contribute to bittensor.
 
@@ -74,6 +74,11 @@ Since miners, validators, subnet owners, and stakers are all paid in alpha token
 Bittensor is a decentralized commodity marketplace and the price of alpha represents the value of each commodity.
 
 
+Outro
+----------------
+The bittensor network is constantly changing and evolving.  Taostats and taotemplar are commited to creating content that keeps YOU up to date with the inner-workings of the Bittensor network. like and subscribe to receive alerts about our new videos, and visit taostats.io to track your favourite wallets and subnets
+
 TO FIX
 ----------------
+Just like TAO, each subnet's alpha tokens have a limited supply of 21m.  Each subnet has their own 4 year emission halving schedule, starting when the subnet was created, with the exception of the original 64 subnets, whose havening schedule started on the day dynamic tao went live, february 13th 2025.
 
