@@ -12,10 +12,10 @@ A total of 1 TAO is split between each subnet pool (TAO_in), the amount of TAO e
 Separately, every block, up to a maximum of 1 alpha is emitted to each subnet pool.  Just like the TAO emissions, this is reduced by half every 4 year halving.
 Once we know the TAO emitted to the pool, we can calculate the alpha to be emitted into the pool.  So continuing our example, the price is 0.05, and 0.025 is being emitted to the pool, so 0.025/0.05 = 0.5 alpha will be emiited into the pool.
 
-3. Alpha - Participant emissions
+3. Alpha - Participant emissions per subnet
 
-Separately, every block, 1 alpha is emitted to the participants.  As with the TAO emissions, this is reduced by half every 4 year halving.
-Of this 1 alpha, 18% is awarded to subnet owners, 41% to miners, and the last 41% is split between validators and their stakers.
+Separately, every block, 1 alpha is emitted to the subnet participants.  As with the TAO emissions, this is reduced by half every 4 year halving.
+Of this 1 alpha per subnet, 18% is awarded to the subnet owner, 41% to miners, and the last 41% is split between validators and their stakers.
 
 The 41% miner rewards are given to miners based on how well they perform their subnet's task as determined by the subnet owner.
 
