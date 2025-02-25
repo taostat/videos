@@ -14,41 +14,46 @@ Once we know the TAO emitted to the pool, we can calculate the alpha to be emitt
 
 3. Alpha - Participant emissions per subnet
 
-Separately, every block, 1 alpha is emitted to the subnet participants.  As with the TAO emissions, this is reduced by half every 4 year halving.
+Separately, every block, 1 alpha is emitted to the participants.
 Of this 1 alpha per subnet, 18% is awarded to the subnet owner, 41% to miners, and the last 41% is split between validators and their stakers.
 
 The 41% miner rewards are given to miners based on how well they perform their subnet's task as determined by the subnet owner.
 
 3a. Validator emission breakdown
 
-The 41% validator rewards are given to validators based their vtrust, you can think of vtrust as how performant a validator is, if the validator has high uptime and is quick to update their machines when subnet owners update their subnet's code, and the validator is properly checking miners (as the subnet owner says they should) the validator will have a higher vtrust.  see my yuma consensus video for how vtrust works in a little more detail.
+The 41% validator rewards are given to validators based their vtrust, you can think of vtrust as how reliable a validator is, if the validator has high uptime and is quick to update their machines when subnet owners update their subnet's code, and the validator is properly checking miners (as the subnet owner says they should) the validator will have a higher vtrust.  see my yuma consensus video for how vtrust works in a little more detail.
 
-Validators can use a feature called "child hotkey".  This allows a validator to NOT validate on a subnet, but instead point their weight (in staked TAO and alpha) to another validator for a particular subnet to receive a portion of their weight.  We'll do another video on child hotkeys [or do we already have one...? I thought doug did one, maybe just ignore child hotkeys for this vid?]
+So for staker rewards, the 41% of the 1 alpha awarded to validators is split between all the validators based on their stake weight which combines their TAO with their alpha in each subnet.
 
 Remember you can stake in 2 ways:
   Stake TAO on the root subnet (subnet 0)
   Stake alpha on any subnet
 
-Over time the proportion of emissions that go to TAO vs alpha will tip more to benefit alpha stakers than TAO stakers. [to rephrase]
+Over time the proportion of emissions that go to alpha stakers will grow, incentivizing more investment in alpha.  At the time this video was made, we are here in the graph, if you're watching in a few months, we might be here.  So right now, let's say that root stakers get 90% of emissions.
 
-So for staker rewards, the 41% of the 1 alpha awarded to validators is split between all the validators based on their stake weight which combines their TAO with their alpha in each subnet.  With a stronger emphasis on alpha (for example 1000 alpha staked to subnet 9 is worth more for emissions on subnet 9 than 1000 TAO).  Right now, alpha is worth around 5x more than TAO for calculating stake weight, but this may be adjusted in the future.
+Right now, there's a stronger emphasis on alpha (for example 1 alpha staked to subnet 9 is worth more for emissions on subnet 9 than 1 TAO).  Right now, alpha is has around 5x more impact on emissions than TAO.
 
-Lets say the taostats gets 10% of the emissions for subnet 9.  We split that 10% into 2 piles: the rewards that go to root stakers, and the rewards that go to subnet stakers.  Lets say the root proportion is at 20%.  This means that 20% of that 10% (2%) alpha emission will be converted to TAO and awarded to stakers.  The remaining 80% of that 10% (8%) will go to alpha stakers.
-[maybe talk here about validator "take"]
+Lets say that the taostats gets 20% of the emissions for subnet 9 (0.41 x 0.2 = 0.082).  We split that 0.082 into 2 piles: the rewards that go to root stakers, and the rewards that go to subnet stakers.  Remember our root proportion is at 90%.  This means that 90% of that 0.082 (0.074) alpha emission will be converted to TAO and awarded to TAO stakers.  The remaining 10% of that 0.082 (0.0082) will go to alpha stakers.
 
-The 2% of the alpha emission that is converted to TAO will be split between all of the root stakers staking to taostats.  [In a proportional way, what are the words here...]
+To find out your individual portion of this, you simply determine what percent of your validator's stake is your own.  If I own 10 TAO and my validator has a total of 100,000 TAO and alpha on the subnet, I'll get 10/100,000 = 0.01% worth of alpha every block (0.074 x 0.00001 = 0.00000074).  There are 7200 blocks in a day, so 0.00000074 x 7200 = 0.0053 alpha worth of tao per day for this subnet.
 
-The same goes with the 8% of the alpha emissions that remain in alpha- it will be split between the alpha stakers staking to taostats.
+The same goes with the 8% of the alpha emissions that remain in alpha- it will be split between the alpha stakers staking to taostats.  If I have 10 alpha staked [or is it 10 TAO worth of alpha?], then i'll get 0.01% worth of the remaining 10% (0.0082) every alpha block (0.0082 * 0.00001 * 7200 = 0.0005904 alpha per day.
 
 
+Notably, validators can set a "take", which is a portion of your alpha.  For most validators right now it's around 10%.  So your takehome will be reduced by approx 10% at the end. (fading numbers in the animation to reflect this)
 
 Takeaways:
   Think of TAO emissions as affecting the market cap of bittensor, whereas alpha doesn't dilute bittensor's market cap, it's internal to the system and as of right now, all subnet alpha tokens are priced in TAO.  [need analogy for this...]
+  You'll notice that 1 TAO is emitted every block, but more than 1 alpha is emitted every block.  So alphas retain their 21m max supply, but their halving schedules will be faster (less than 4 years) than TAO's halving.
+  For 2025, it really matters where we are on the alpha weight/emissions graph, in 2026 and beyond, the ratio won't change much.
+  what is interesting is that validators receive tao AND alpha for validating on a subnet.
 
 
   I think it's interesting to look at emissions and see the people behind the numbers.  The subnet owners take a big risk by purchasing their slot, they're like the entrepreneurs, if they're successful, their 18% cut will help them recoup their costs.
   The miners are the workers, not just any workers, but workers who are rewarded for their innovation and exceeding expectations.  They get a large 41% chunk of the emissions.
-  Validators and their stakers are paid the remaining 41%.   Validators are paid for maintaining their machines running validation code and adding to the network.  Alpha stakers are paid to find the most valuable subnets as fast as possible.
+  Validators and their stakers are paid the remaining 41%.   Validators are paid for maintaining their machines running validation code and adding to the network.
+  Alpha stakers are paid to find the most valuable subnets as fast as possible.
+  Alpha stakers support subnets by increasing their subnet's payouts...
 [need to think further about how to phrase this]
 
 ----------------------
