@@ -1,11 +1,12 @@
 We're going to go over how emissions work throughout the entire bittensor system.
 
-Right now, every block, 1 TAO is emitted into the network.  This is reduced by half every 4 year halving.
+At a high level, every block, 1 TAO and a variable amount of alpha is injected into subnet pools, and separately, 1 alpha is emitted into the subnet participants.
 
 
 1.  TAO pool emission Distribution
 
-A total of 1 TAO is split between each subnet pool (TAO_in), the amount of TAO emitted into each subnet pool is it's current price divided by the sum of all subnet prices.  So if a subnet's price is currently 0.05, and we add up all the subnets prices and we get a value of 2, then the amount of tao emitted to this subnet's pool in 1 block is 0.05/2 = 0.025 TAO.  (it's actually ema EMA_price / EMA_sum)
+Right now, every block, 1 TAO is emitted into the network.  This is reduced by half every 4 year halving.
+So this 1 TAO is split between each subnet pool (TAO_in), the amount of TAO emitted into each subnet pool is it's current price divided by the sum of all subnet prices.  So if a subnet's price is currently 0.05, and we add up all the subnets prices and we get a value of 2, then the amount of tao emitted to this subnet's pool in 1 block is 0.05/2 = 0.025 TAO.  To prevent abuse, it's actually EMA_price / EMA_sum, ema is just an average of prices over a time period, using the ema price smoothes out emissions to be less eratic and less prone to abuse.
 
 2. Alpha pool emission distribution
 
